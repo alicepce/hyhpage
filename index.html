@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>나만의 홈페이지</title>
+  <!-- 부트스트랩 CDN 링크 -->
+  <link rel="stylesheet" href="D:HYH/frontstudy/webpage/webpage css.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .button {
+        margin-left: 10px; 
+        padding: 8px 16px;
+        border: none;
+        border-radius: 4px;
+        background-color: #007bff; 
+        color: white;
+        cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  
+  <!-- 네비게이션 바 -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">홈</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">소개</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">베스트</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">제품</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">이벤트</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">연락</a>
+          </li>
+        </ul>
+      </div>
+      <a href="signin.html" class="button">로그인</a>
+    </div>
+  </nav>
+
+
+  
+<!--품목-->
+  <div class="b-example-divider"></div>
+
+  <div class="container px-4 py-5" id="custom-cards">
+    <h2 class="pb-2 border-bottom">STAYC NEW ITEM</h2>
+
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url(D:HYH/frontstudy/webpage/images/converse.png);">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">유틸리티 쇼츠 컨버스 에그렛 10026395-A01</h3>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <img src="D:HYH/frontstudy/webpage/images/converse.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                <small>Converse</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                <small>★★★★★</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url(D:HYH/frontstudy/webpage/images/yale.jpg);">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">COMFORT COOL SLIT NECK POLO KNIT IVOR</h3>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <img src="D:HYH/frontstudy/webpage/images/yale.jpg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                <small>Yale</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                <small>★★★★★</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url(D:HYH/frontstudy/webpage/images/adidas.jpg);">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">삼바 OG W-그린/IE0872</h3>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <img src="D:HYH/frontstudy/webpage/images/adidas.jpg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                <small>Adidas</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                <small>★★★★★</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<!--브랜드배너--> 
+ <p></p>
+ <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+      <div class="carousel-item active">
+          <img src="D:HYH/frontstudy/webpage/images/sienne main.png" class="d-block w-100" style="max-height:400px; object-fit: cover;" alt="First slide">
+          <div class="carousel-caption d-none d-md-block">
+              <h5>Sienne</h5>
+              <p>시엔느(SIENNE)는 프랑스어로 '그녀의 것'을 의미합니다. 세련된 소재와 위트 있는 디테일, 자연스러운 실루엣에 집중하여 불변의 클래식한 시그니처 분위기를 완성합니다. 환경을 위해 매년 단계별 친환경 프로젝트를 기획하여 실질적 책임을 수행합니다.</p>
+          </div>
+      </div>
+      <div class="carousel-item">
+          <img src="D:HYH/frontstudy/webpage/images/that main.png" class="d-block w-100" style="max-height:400px; object-fit: cover;" alt="Second slide">
+          <div class="carousel-caption d-none d-md-block">
+              <h5>Thisisneverthat</h5>
+              <p>스포츠 앤 스트릿을 컨셉트로 2010년에 론칭한 브랜드입니다. 밀리터리 스타일과 1990년대 스포츠 웨어를 기반으로 현재의 무드를 담아 디자인합니다. 매 시즌 사진과 영상 등을 통해 새로운 컬렉션을 발표하며, 다양한 브랜드와 협업하며 스타일과 기능을 모두 반영한 디자인을 하고자 합니다.</p>
+          </div>
+      </div>
+      <div class="carousel-item">
+          <img src="D:HYH/frontstudy/webpage/images/adidas main.png" class="d-block w-100" style="max-height:400px; object-fit: cover;" alt="Third slide">
+          <div class="carousel-caption d-none d-md-block">
+              <h5>Adidas</h5>
+              <p>1920년부터 독일의 헤르초게나우라흐에서 스포츠 슈즈를 만들던 아디다스(ADIDAS)는 이러한 철학을 토대로 스포츠 영역의 다양한 요소를 일상의 영역으로 가져오는 아디다스는 이를 통해 전 세계의 트렌드를 주도하고 있으며, 지금도 여전히 자신의 다양한 모습을 보여주고 싶어하는 소비자와 직접 소통하며 함께 혁신적인 트렌드를 만들고 있습니다.</p>
+          </div>
+      </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+  <!-- 푸터 -->
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <footer class="container py-5">
+      <div class="row">
+        <div class="col-12 col-md">
+          <img src="D:HYH/frontstudy/webpage/images/logoico.ico" alt="Icon" class="d-block mb-2" width="24" height="24">
+          <small class="d-block mb-3 text-body-secondary">&copy; 2020–2024</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Features</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary text-decoration-none" href="#">Business</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Global</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Government</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Gaming</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <div class="container">
+      <p>&copy; 2024 STAYC Shopping</p>
+    </div>
+  </footer>
+
+  <!-- 부트스트랩 JS CDN 링크 -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
